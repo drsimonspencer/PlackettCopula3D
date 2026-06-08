@@ -1,0 +1,3 @@
+importFrom("stats", "dbeta", "df", "rbeta", "rnorm", "runif",
+             "uniroot")
+exportPattern("^[[:alpha:]]+")

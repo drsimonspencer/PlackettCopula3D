@@ -1,0 +1,22 @@
+Package: PlackettCopula3D
+Type: Package
+Title: Trivariate Plackett Copula Analysis of Coinfection Data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Simon", "Spencer",
+      email = "s.e.f.spencer@warwick.ac.uk",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Giorgia", "Lepschy",
+      role = "aut"
+    )
+  )
+Description: Bayesian analysis of diagnostic test data using the trivariate Plackett copula.
+    Originally developed to analyse soil transmitted helminth data (Ascaris, Hookworm and Trichuris).
+License: GPLv3
+Imports: stats
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
