@@ -4,11 +4,8 @@
 #' For details see \code{\link{mcmc.plackett}}.
 #'
 #' @param mcmc Output list from mcmc.plackett().
-#' @param type Character. Type of plot to generate. Options are:
-#'   \describe{
-#'     \item{"OR"}{Posteriors of the copula parameters as odds ratios.}
-#'     \item{"prevalence"}{Posterior intervals for the prevalences, sorted by sample size.}
-#'   }
+#' @param burnin Number of iterations of burn-in to remove
+#' @param legs location of legend
 #'
 #' @return No return value. Generates plots for MCMC diagnostics.
 #'
