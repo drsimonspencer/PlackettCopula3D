@@ -10,6 +10,7 @@
 #' If prevalences are to be treated as fixed, then leave as NULL.
 #' @param priors List containing the parameters of the Beta prior for \eqn{u}, \eqn{v}, and \eqn{w}.
 #'   Entries must include a.u, b.u, a.v, b.v, a.w, b.w (default: 0.5). Not used if size is NULL.
+#' @param max.attempts Maximum number of attempts to simulate (default 100).
 #'
 #' @returns A list with:
 #' \item{predictions}{Predictions for the prevalence of each of the 8 possible states, plus "any STH".}
