@@ -32,7 +32,7 @@ loglik.plackett.tri <- function(params, counts) {
 
   wh<-which(counts>0)
   if (any(is.na(probs[wh])) || any(probs[wh] < 0)) {
-    cat("Likelihood error:",probs,";",params,"\n")
+    #cat("Likelihood error:",probs,";",params,"\n")
     return(-Inf)
   } else {
     return(sum(counts[wh] * log(probs[wh])))

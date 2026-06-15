@@ -7,7 +7,7 @@
 #' Samples are drawn in sequence, and dimensions are deleted if a draw from that dimension
 #' would violate the marginal constraints.
 #' @param size Number of samples to draw
-#' @param probs Vector of length 8 giving the probabilities
+#' @param probs Vector of length 8 giving the probabilities, with names in p000, p001, p010, p011, p100, p101, p110, p111.
 #' @param margins Integer vector of length 3 giving the constraints.
 #'
 #' @returns Vector of length 8, giving the number of samples in each state.
